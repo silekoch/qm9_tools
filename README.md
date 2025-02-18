@@ -4,7 +4,7 @@ A small collection of scripts and utilities for working with the QM9 dataset.
 
 ## Description
 
-This repository contains tools to parse, simplify, and handle QM9 `.xyz` files. The main script, `simplify_qm9.py`, converts extended QM9 `.xyz` files into a simplified format by discarding extraneous data lines while retaining essential atom information.
+This repository contains tools to parse, simplify, and handle QM9 `.xyz` files. The main script, `simplify_qm9.py`, converts extended QM9 `.xyz` files into a simplified format by discarding extraneous data lines while retaining essential atom information. This is e.g. required for correct visualization with PyMol.
 
 ## Usage
 
