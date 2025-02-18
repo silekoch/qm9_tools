@@ -97,7 +97,7 @@ def main():
 
         # Check if the input file exists
         if not os.path.isfile(input_file):
-            print(f"Error: The specified input file '{input_file}' does not exist.")
+            print(f"Error: The specified input file '{input_file}' does not exist. If you want to process a directory, please use --input_dir and --output_dir.")
             sys.exit(1)
 
         # Determine the output file
